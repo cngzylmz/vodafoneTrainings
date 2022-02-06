@@ -1,16 +1,14 @@
-package cucumber.src.main.java;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import cucumber.src.main.java.pages.Banner;
-import cucumber.src.main.java.pages.BasePage;
-import cucumber.src.main.java.pages.BasketPage;
-import cucumber.src.main.java.pages.LoginPage;
-import cucumber.src.main.java.pages.SearchPage;
+import pages.Banner;
+import pages.BasePage;
+import pages.BasketPage;
+import pages.LoginPage;
+import pages.SearchPage;
 
 import java.util.concurrent.TimeUnit;
 

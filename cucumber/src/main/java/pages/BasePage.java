@@ -1,4 +1,4 @@
-package cucumber.src.main.java.pages;
+package pages;
 
 import org.openqa.selenium.WebElement;
 

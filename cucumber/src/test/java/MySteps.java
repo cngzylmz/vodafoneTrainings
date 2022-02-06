@@ -1,5 +1,3 @@
-package cucumber.src.test.java;
-
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -8,8 +6,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import cucumber.src.main.java.WebSteps;
-import cucumber.src.main.java.pages.BasePage;
+import pages.BasePage;
 
 import static org.testng.Assert.fail;
 
@@ -97,7 +94,7 @@ public class MySteps extends BasePage {
     }
 
     @When("^I enter \"([^\"]*)\" text to (.*) text area$")
-    public void enterText(String text, String element) throws InterruptedException {
+    public void enterText(String text, String element) {
         WebElement object;
         object = websteps.findElement(element);
 

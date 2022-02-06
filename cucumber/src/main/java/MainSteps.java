@@ -1,5 +1,3 @@
-package cucumber.src.main.java;
-
 import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
