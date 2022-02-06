@@ -1,3 +1,5 @@
+.idea
+/WebFunctions/target
 .idea/
 out/
 *.iml
