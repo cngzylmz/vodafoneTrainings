@@ -1,4 +1,4 @@
-package frontEndAutomationSoner.firstHomework;
+package frontEndAutomationSoner.firstHomework.firstHomework;
 
 import java.util.ArrayList;
 import java.util.Arrays;

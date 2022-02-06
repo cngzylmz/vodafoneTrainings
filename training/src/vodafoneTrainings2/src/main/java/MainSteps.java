@@ -1,3 +1,5 @@
+package vodafoneTrainings2.src.main.java;
+
 import org.openqa.selenium.WebElement;
 
 import java.io.IOException;

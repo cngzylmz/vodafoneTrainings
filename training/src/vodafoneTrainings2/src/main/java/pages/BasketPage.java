@@ -1,4 +1,4 @@
-package pages;
+package vodafoneTrainings2.src.main.java.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,15 +12,15 @@ public class BasketPage extends BasePage {
     public Hashtable<String, WebElement> basketElements;
 
     @FindBy(id = "basket-item-count")
-    WebElement basketItemCount;
+    private WebElement basketItemCount;
     @FindBy(id = "continue_step_btn")
-    WebElement finishShopping;
+    private WebElement finishShopping;
     @FindBy(xpath = "//input[@name='quantity']")
-    WebElement basketItemQuantity;
+    private WebElement basketItemQuantity;
     @FindBy(css = "delete_all_2uTds")
-    WebElement deleteSelectedProducts;
+    private WebElement deleteSelectedProducts;
     @FindBy(css = "red_3m-Kl")
-    WebElement deleteSelectedProductsApprove;
+    private WebElement deleteSelectedProductsApprove;
 
     public BasketPage(WebDriver driver) {
         super();

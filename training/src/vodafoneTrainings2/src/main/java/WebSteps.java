@@ -1,14 +1,16 @@
+package vodafoneTrainings2.src.main.java;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pages.BasePage;
-import pages.Banner;
-import pages.BasketPage;
-import pages.LoginPage;
-import pages.SearchPage;
+import vodafoneTrainings2.src.main.java.pages.Banner;
+import vodafoneTrainings2.src.main.java.pages.BasePage;
+import vodafoneTrainings2.src.main.java.pages.BasketPage;
+import vodafoneTrainings2.src.main.java.pages.LoginPage;
+import vodafoneTrainings2.src.main.java.pages.SearchPage;
 
 import java.util.concurrent.TimeUnit;
 

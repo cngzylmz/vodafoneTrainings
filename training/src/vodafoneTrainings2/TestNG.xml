@@ -2,7 +2,6 @@
 <suite name="Suite" parallel="methods" thread-count="2" verbose="1" >
     <test name="Nopackage" >
         <classes>
-            <class name="Parallel"/>
         </classes>
     </test>
 </suite>

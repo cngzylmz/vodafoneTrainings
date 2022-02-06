@@ -1,4 +1,4 @@
-package pages;
+package vodafoneTrainings2.src.main.java.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,15 +11,15 @@ public class SearchPage extends BasePage {
     public Hashtable<String, WebElement> searchResultsElements;
 
     @FindBy(xpath = "//div[contains(text(),'Selpak')]")
-    WebElement toilerPaperBrand;
+    private WebElement toilerPaperBrand;
     @FindBy(xpath = "//div[@class='horizontalSortingBar-toggle']")
-    WebElement orderProduct;
+    private WebElement orderProduct;
     @FindBy(xpath = "//div[.='En Çok Satanlar']")
-    WebElement orderBestseller;
+    private WebElement orderBestseller;
     @FindBy(xpath = "//li[@class='productListContent-item'][1]")
-    WebElement firstProduct;
+    private WebElement firstProduct;
     @FindBy(xpath = "//button[@data-test-id='product-info-button']")
-    WebElement addToBasket;
+    private WebElement addToBasket;
 
     public SearchPage(WebDriver driver) {
         super();

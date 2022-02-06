@@ -1,4 +1,4 @@
-package pages;
+package vodafoneTrainings2.src.main.java.pages;
 
 import org.openqa.selenium.WebElement;
 

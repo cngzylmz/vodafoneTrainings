@@ -1,4 +1,4 @@
-package pages;
+package vodafoneTrainings2.src.main.java.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,9 +12,9 @@ public class LoginPage extends BasePage {
     public Hashtable<String, WebElement> loginElements;
 
     @FindBy(id = "txtEmail")
-    WebElement emailInput;
+    private WebElement emailInput;
     @FindBy(xpath = "//*[contains(text(),'Üye olmadan devam et')]")
-    WebElement continueWithoutLogin;
+    private WebElement continueWithoutLogin;
 
     public LoginPage(WebDriver driver) {
         super();
