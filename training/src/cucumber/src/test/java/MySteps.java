@@ -1,4 +1,4 @@
-package vodafoneTrainings2.src.test.java;
+package cucumber.src.test.java;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -8,8 +8,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import vodafoneTrainings2.src.main.java.WebSteps;
-import vodafoneTrainings2.src.main.java.pages.BasePage;
+import cucumber.src.main.java.WebSteps;
+import cucumber.src.main.java.pages.BasePage;
 
 import static org.testng.Assert.fail;
 

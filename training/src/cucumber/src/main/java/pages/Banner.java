@@ -1,4 +1,4 @@
-package vodafoneTrainings2.src.main.java.pages;
+package cucumber.src.main.java.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
